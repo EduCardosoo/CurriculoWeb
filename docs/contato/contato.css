@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7;
+    font-family: system-ui, -apple-system, helvetica, arial, sans-serif;
+    color: #23232e;
+}
+
+/* Foto */
+.foto-perfil {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: 2px solid #23232e;
+}
+
+/* Cabeçalho */
+header {
+    background: #23232e;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/* Menu */
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 6px;
+}
+
+/* Conteúdo centralizado */
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* alinha no meio da tela (vertical) */
+    align-items: center;     /* alinha no meio da tela (horizontal) */
+    height: 100vh;           /* usa a altura toda da tela */
+    gap: 20px;
+    text-align: center;
+    border-left: 2px solid #23232e;
+    border-right: 2px solid #23232e;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 4px 0;
+}
