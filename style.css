@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, helvetica, arial, sans-serif;
+    color: #23232e;
+
+    /* 🔹 fundo da tela */
+    background-image: url("img/background.jpg");
+    background-size: cover;       /* cobre toda a tela */
+    background-position: center;  /* centraliza a imagem */
+    background-repeat: no-repeat; /* evita repetição */
+    background-attachment: fixed; /* fica fixo ao rolar */
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: 2px solid #23232e;
+}
+
+/* Cabeçalho */
+header {
+    background: rgba(35, 35, 46, 0.9); /* leve transparência */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/* Menu de navegação do meu site */
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 6px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    text-align: center;
+
+    border-left: 2px solid #23232e;
+    border-right: 2px solid #23232e;
+    padding: 20px;
+
+    background-color: rgba(255, 255, 255, 0.8); /* fundo branco para a imagem ter contraste */
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 4px 0;
+}
