@@ -23,7 +23,6 @@ body {
     border: 2px solid #23232e;
 }
 
-/* Cabeçalho */
 header {
     background: rgba(35, 35, 46, 0.9); /* leve transparência */
 }
@@ -46,23 +45,11 @@ a {
     letter-spacing: 4px;
 }
 
-/* Menu de navegação do meu site */
+
 .nav-list {
     list-style: none;
     display: flex;
     gap: 20px;
-}
-
-.mobile-menu {
-    display: none;
-    cursor: pointer;
-}
-
-.mobile-menu div {
-    width: 32px;
-    height: 2px;
-    background: #fff;
-    margin: 6px;
 }
 
 .informacoes {
